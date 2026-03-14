@@ -4,21 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="results.html" method="get" enctype="multipart/form-data">
-        <div>
-           <label for="name">Name</label>
-            <input type="text" id="name" placeholder="username"required> 
+    <div class="container">
+        <div class="left-side">
+            <h1>welcome back</h1>
+            <p>Login to continue</p>
         </div>
+        <div class="right-side">
+        <form action="results.html" method="get" enctype="multipart/form-data">
+            <div class="form-2">
+            <label for="name">Name</label>
+                <input type="text" id="name" placeholder="username"required> 
+            </div>
+            <div class="form-2">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email" required>
+            </div>
+            
+            <div class="form-2">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" required>
+            </div>
+            <button type="submit">submit</button>
+        </form>
+       
+    </div>
+    
+        <!--
         <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="email" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="phone number">
+        </div>
+        <button type="reset">Reset</button>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color" value="#0000000">
         </div>
         <div>
             <label for="date">Birthdate</label>
-            <input type="date" id="date" min="2009-02-01">
+            <input type="date" id="date" min="1957-01-01">
         </div>
+        
         <div>
             Gender:
             <label for="male">Male</label>
@@ -26,20 +54,15 @@
             <label for="female">Female</label>
             <input type="radio" id="female" name="gender" value="female">
         </div>
-        <div>
-            <label for="eyecolor">Eye Color</label>
-            <select name="eyecolor" id="eyecolor" multiple>
-                <option value="brown">Brown</option>
-                <option value="blue">Blue</option>
-                <option value="green">Green</option>
-                <option value="hazel">Hazel</option>
-                <option value="gray">Gray</option>
-            </select>
-        </div>
+        
         <input type="hidden" name="hiddenfield" value="">
         <div>
             <label for="bio">Bio</label>
             <textarea name="bio" id="bio" placeholder="tell us about yourself"></textarea>
+        </div>
+        <div>
+            <label for="url">URL</label>
+            <input type="url" id="url" name="url" placeholder="website URL">
         </div>
         <div>
             <label for="age">Age</label>
@@ -50,24 +73,14 @@
             <input type="file" id="file" name="file">
         </div>
         <div>
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" placeholder="phone number">
-        </div>
-        <div>
-            <label for="url">URL</label>
-            <input type="url" id="url" name="url" placeholder="website URL">
-        </div>
-        <div>
-            <label for="color">Color</label>
-            <input type="color" id="color" name="color" value="#0000000">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="password" required>
-        </div>
-        <button type="reset">Reset</button>
-        <button type="submit">submit</button>
-        
-    </form>
+            <label for="eyecolor">Eye Color</label>
+            <select name="eyecolor" id="eyecolor" multiple>
+                <option value="brown">Brown</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="hazel">Hazel</option>
+                <option value="gray">Gray</option>
+            </select>
+        </div> -->
 </body>
 </html>
