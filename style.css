@@ -4,6 +4,144 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    background-color: var(--background);
+    color: #fcfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.van{
+    color: var(--text-main);
+    text-decoration: bold;
+    margin: 10px;
+    font-size: 18px;
+    flex-direction: row;
+
+}
+:root{
+    --primary-color: #47e547;
+    --background: #0f171c;
+    --surface: #1e2931;
+    --text-main: #fff;
+    --text-secondary: #94a3b8;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text-main);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: var(--surface);
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.dax {
+    padding: 6px;
+    margin-bottom: 2px;
+}
+.dax input, .dax textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+button{
+    background-color: var(--primary-color);
+    color: var(--text-main);
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+button :hover{
+    background-color: var(--surface);
+
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--surface);
+    padding: 20px;
+    margin-top: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
     display: flex;
     height: 100vh;
@@ -15,11 +153,11 @@
     margin: 10px;
     text-align: center;
     padding: 15px 10px;
-}*/
+}----------
 .left-side{
     flex: 1;
-    background-color: #47e45c;
-    color: white;
+    background-color: #2c2c2c;
+    color: #fcfdfd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +168,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f5f5f5;
+    background: #2c2c2c;
 }
 
 .form-2{
@@ -41,7 +179,8 @@
     display: block;
 }
 .form-2 input{
-
+    padding: 8px;
+    width: 100%;
 
 }
 .form-2 input, .form-2 textarea{
@@ -49,8 +188,10 @@
     width: 100%;
 }
 .button{
-    background: color #333;
-    color: #993333;
-    padding: 10px 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #47e45c;
+    color: #2c2c2c;
     border: none;
-}
+    cursor: pointer;
+}*/
